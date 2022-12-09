@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f1f5;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+h2,
+h3 {
+  font-family: "Ubuntu", sans-serif;
+}
+.wapper {
+  width: 951px;
+  height: 100vh;
+  padding: 15px;
+  margin: 0 auto;
+  position: relative;
+}
+.avatar {
+  width: 366px;
+  text-align: center;
+  margin: auto;
+}
+.content {
+  display: flex;
+  padding-top: 40px;
+  justify-content: space-between;
+}
+
+img.photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.icon-profile {
+  padding-top: 15px;
+  font-size: 23px;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+}
+.fa-facebook {
+  color: #1877f2;
+}
+.icon-profiles {
+  text-align: center;
+  background: #fff;
+  height: 92px;
+  width: 171px;
+  border-radius: 15px;
+  padding-top: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+  box-shadow: #9fa1b4 0px 5px 15px;
+}
+.information-icon:hover {
+  color: #fff;
+  background-color: #ff5f01;
+}
+.personal-information,
+.profession,
+.education,
+.skill,
+.more-information {
+  position: relative;
+}
+.profession-icon:hover {
+  color: #fff;
+  background-color: #41a4f5;
+}
+
+.education-icon:hover {
+  color: #fff;
+  background-color: #ff0626;
+}
+
+.skill-icon:hover {
+  color: #fff;
+  background-color: #6e4cbe;
+}
+
+.more-icon:hover {
+  color: #fff;
+  background-color: #ff4e15;
+}
+.dot-hover {
+  width: 100%;
+  height: 54%;
+}
+.dot {
+  width: 5px;
+  height: 50px;
+  background: #000;
+  position: absolute;
+  top: 100px;
+  margin: 0 27px;
+  transition: ease-in-out 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.box-content {
+  position: absolute;
+  margin-top: 60px;
+  padding: 30px;
+  width: 390px;
+  text-align: left;
+  font-size: 17px;
+  background: #fff;
+  border-radius: 13px;
+  transition: ease-out 1.2s;
+  word-break: break-all;
+  opacity: 0;
+  visibility: hidden;
+}
+.box-contents {
+  position: absolute;
+  margin-left: 77px;
+  padding: 30px;
+  width: 390px;
+  text-align: left;
+  font-size: 17px;
+  background: #fff;
+  border-radius: 13px;
+  transition: ease-out 1.2s;
+  word-break: break-all;
+  opacity: 0;
+  visibility: hidden;
+}
+.link-code {
+  font-size: 16px;
+  padding-left: 40px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: capitalize;
+  color: #f0f1f5;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: dashed;
+}
+.personal-information:hover .dot {
+  top: 92px;
+  opacity: 1;
+  visibility: visible;
+}
+.personal-information:hover .box-content {
+  color: #fff;
+  background-color: #ff5f01;
+  margin-top: 0px;
+  opacity: 1;
+  visibility: visible;
+}
+.profession:hover .dot {
+  top: 92px;
+  opacity: 1;
+  visibility: visible;
+}
+.profession:hover .box-content {
+  color: #fff;
+  background-color: #41a4f5;
+  margin-top: 0px;
+  opacity: 1;
+  visibility: visible;
+}
+.education:hover .dot {
+  top: 92px;
+  opacity: 1;
+  visibility: visible;
+}
+.education:hover .box-content {
+  color: #fff;
+  background-color: #ff0626;
+  margin-top: 0px;
+  opacity: 1;
+  visibility: visible;
+}
+.skill:hover .dot {
+  top: 92px;
+  opacity: 1;
+  visibility: visible;
+}
+.skill:hover .box-content {
+  color: #fff;
+  background-color: #6e4cbe;
+  margin-top: 0px;
+  opacity: 1;
+  visibility: visible;
+}
+.more-information:hover .dot {
+  top: 92px;
+  opacity: 1;
+  visibility: visible;
+}
+.more-information:hover .box-contents {
+  background-color: #ff4e15;
+  color: #fff;
+  margin-left: 0px;
+  opacity: 1;
+  visibility: visible;
+}
