@@ -16,7 +16,7 @@ h3 {
   font-family: "Ubuntu", sans-serif;
 }
 .wapper {
-  width: 951px;
+  width: 1152px;
   height: 100vh;
   padding: 15px;
   margin: 0 auto;
@@ -125,7 +125,8 @@ img.photo {
 }
 .box-contents {
   position: absolute;
-  margin-left: 77px;
+  margin-left: -45px;
+  margin-top: 60px;
   padding: 30px;
   width: 390px;
   text-align: left;
@@ -203,7 +204,7 @@ img.photo {
 .more-information:hover .box-contents {
   background-color: #ff4e15;
   color: #fff;
-  margin-left: 0px;
+  margin-top: 0px;
   opacity: 1;
   visibility: visible;
 }
